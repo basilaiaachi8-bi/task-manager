@@ -4,7 +4,7 @@ function App() {
   const [tasks, setTasks] = useState([]);
   const [title, setTitle] = useState("");
 
-  const API = "http://localhost:3000/tasks";
+  const API = "https://task-manager-gb2g.onrender.com";
 
   const fetchTasks = async () => {
     const res = await fetch(API);
